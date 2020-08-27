@@ -14,6 +14,8 @@ end
 
 def long_planeteer_calls(array)
   array = string.split (" ")
+  test_array = [ ]
+  array.collect do |string|
   if string.length > 5 
     return "true"
   else 
