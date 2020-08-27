@@ -17,8 +17,8 @@ def long_planeteer_calls(array)
   if string.length > 5 
     return "true"
   else 
-    string.length <5 
-    return false 
+    string.length < 5 
+    return "false" 
   end 
 end
 
