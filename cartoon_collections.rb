@@ -13,15 +13,9 @@ planeteer_calls
 end 
 
 def long_planeteer_calls(array)
-  array = string.split (" ")
-  test_array = [ ]
-  array.collect do |string|
-  if string.length > 5 
-    return "true"
-  else 
-    string.length < 5 
-    return "false" 
-  end 
+  array.any? do |word|
+    word.length > 4
+end
 end
 
 def find_the_cheese# code an argument here
